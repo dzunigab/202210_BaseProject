@@ -3,8 +3,8 @@ export class Vehiculo {
   marca: string;
   linea: string;
   referencia: string;
-  modelo: string;
-  kilometraje: string;
+  modelo: number;
+  kilometraje: number;
   color: string;
   imagen: string;
   constructor(
@@ -12,8 +12,8 @@ export class Vehiculo {
     marca: string,
     linea: string,
     referencia: string,
-    modelo: string,
-    kilometraje: string,
+    modelo: number,
+    kilometraje: number,
     color: string,
     imagen: string
   ) {
